@@ -15,7 +15,7 @@ public class OrderRepositoryV2 {
     public void save(TraceId traceId, String itemId) {
         TraceStatus status = null;
         try {
-            status = trace.beginSync(traceId, "OrderRepositoryV1.save()");
+            status = trace.beginSync(traceId, "OrderRepository2.save()");
 
             // 저장 로직
             if (itemId.equals("ex")) {
