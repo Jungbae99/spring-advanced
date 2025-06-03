@@ -2,7 +2,7 @@ package hello.advanced.proxy.app.v1;
 
 import org.springframework.web.bind.annotation.*;
 
-@RequestMapping // 스프링은 @Controller 또는 @RequestMapping 이 있어야
+@RestController // 스프링은 @Controller 또는 @RequestMapping 이 있어야
 @ResponseBody
 public interface OrderControllerV1 {
 
